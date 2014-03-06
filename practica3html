@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+			Practica # 3 Progra IV
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<header>
+			<h1>Formulario</h1>
+		</header>
+		<section id="principal">
+			<form>
+				<fieldset class="secciones margen" >
+					<legend>Datos Personales</legend>
+					<label>
+						Nombre <input type="text" name="nombre">
+					</label>
+					<br />
+					<label>
+						Apellido Materno <input type="text" name="nombre">
+					</label>
+					<br />
+					<label>
+						Apellido Materno <input type="text" name="nombre">
+					</label>
+					<br />
+					<label>
+						Fecha de Nacimiento 
+						<select name="dia">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+						</select> 
+						<select name="mes">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+						</select> 
+						<select name="anio">
+							<option>1991</option>
+							<option>1992</option>
+							<option>1993</option>
+							<option>1994</option>
+							<option>1995</option>
+							<option>1996</option>
+							<option>1997</option>
+							<option>1998</option>
+							<option>1999</option>
+							<option>2000</option>
+							<option>2001</option>
+							<option>2002</option>
+						</select>
+					</label>
+					<br /><br /><br />
+					<label>
+						Sexo
+					</label>
+					<br/>
+					<label>
+					<input type="radio" name="sexo" value="m"> Masculino 
+					</label>
+					<label>
+						<input type="radio" name="sexo" value="f"> Femenino
+					</label>
+					<br /><br /><br />
+					<label>
+						Foto <br />
+						<input type="file" name="foto"> 
+					</label> 
+				</fieldset>
+				
+				
+				<fieldset  class="secciones">
+					<legend>Datos Login</legend>
+					<label>
+						Codigo <input type="text" name="codigo">
+					</label>
+					<br />
+					<label>
+						Contraseña <input type="text" name="contra">
+					</label>
+				</fieldset>
+				<br />
+				<fieldset  class="secciones">
+					<legend>Dirección</legend>
+					<label>
+						Domicilio <input type="text" name="nombre">
+					</label>
+					<br />
+					<label>
+						Colonia <input type="text" name="nombre">
+					</label>
+					<br />
+					<label>
+						Télefono <input type="text" name="nombre">
+					</label>
+				</fieldset>
+				<br />
+				<fieldset class="secciones">
+					<legend>Intereses</legend>
+					<label>
+						<input type="checkbox"> Deportes
+					</label>
+					<label>
+						<input type="checkbox"> Ciencia
+					</label>
+					<label>
+						<input type="checkbox"> Educación
+					</label>
+					<br />
+					<label>
+						<input type="checkbox"> Musica
+					</label>
+					<label>
+						<input type="checkbox"> Otro
+					</label>
+				</fieldset>
+				<div style="clear:both;width:100%;text-align:center;">
+					<br />
+					<br />
+					<input type="submit" value="Cancelar"> <input type="submit" value="Guardar">
+				</div>
+			</form>
+		</section>
+		<footer >
+			todos los derechos reservados 
+		</footer>
+	</body>
+</html>
